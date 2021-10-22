@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grid{
+            background-color: green;
+            display: grid;
+            grid-column-gap: 20px;/*khoang cach cot*/
+            grid-row-gap: 10px;/*khoang cach hang*/
+            grid-template-columns: 200px 100px auto;/*khoang cach cot ,cot dau tien 200,cot thu 2 100,cot sau tu scale*/
+            padding:20px;
+        }
+        .gird-item{
+            background-color: white;
+            font-size:20px;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="grid">
+        <div class="gird-item">1</div>
+        <div class="gird-item">2</div>
+        <div class="gird-item">3</div>
+        <div class="gird-item">4</div>
+        <div class="gird-item">5</div>
+        <div class="gird-item">6</div>
+        <div class="gird-item">7</div>
+        <div class="gird-item">8</div>
+        <div class="gird-item">9</div>
+        <div class="gird-item">10</div>
+        <div class="gird-item">11</div>
+        <div class="gird-item">12</div>
+    </div>
+</body>
+</html>
